@@ -5,7 +5,9 @@
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
-        "build": "tsc --build"
+        "build": "tsc --build",
+        "prepublishOnly": "npm run lint && npm run build",
+        "lint": "eslint src/**/* --fix --quiet"
     },
     "keywords": [
         "typescript",
