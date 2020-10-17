@@ -13,3 +13,6 @@ logs
 
 # Misc
 .DS_Store
+
+# IDE Settings
+.vscode
