@@ -7,6 +7,11 @@ module.exports = {
             jsx: true,
         },
     },
+    env: {
+        browser: true,
+        commonjs: true,
+        es6: true,
+    },
     settings: {
         react: {
             version: "detect",
@@ -14,7 +19,7 @@ module.exports = {
     },
     extends: [
         "plugin:@typescript-eslint/recommended",
-        "prettier/@typescript-eslint",
+        "prettier/@typescript-eslint:recommended",
         "plugin:prettier/recommended",
     ],
     rules: {
