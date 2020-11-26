@@ -3,6 +3,7 @@ dist
 out
 build
 node_modules
+coverage
 
 # Logs
 *.log*
@@ -13,6 +14,7 @@ logs
 
 # Misc
 .DS_Store
+.dccache
 
 # IDE Settings
 .vscode

@@ -1,12 +1,6 @@
-name: Node.js CI
+name: Build
 
-on:
-    push:
-        branches:
-            - master
-    pull_request:
-        branches:
-            - master
+on: [push]
 
 jobs:
     build:
@@ -24,6 +18,6 @@ jobs:
                   node-version: ${{ matrix.node-version }}
             - run: npm add -g pnpm
             - run: pnpm install
-            - run: pnpm run build --if-present
+            - run: pnpm run build
               env:
                   CI: true

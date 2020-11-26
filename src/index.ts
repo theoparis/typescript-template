@@ -1,1 +1,1 @@
-console.log("Hello world!");
+export const main = () => "hello world!";
