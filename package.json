@@ -8,7 +8,7 @@
         "build": "tsc --build",
         "prepublishOnly": "pnpm run lint && pnpm run test && pnpm run build",
         "test": "ts-mocha test/**/*.ts",
-        "lint": "eslint src --fix --quiet",
+        "lint": "eslint {src,test}/**/*.ts --fix --quiet",
         "coverage": "nyc ts-mocha test/**/*.ts"
     },
     "keywords": [
