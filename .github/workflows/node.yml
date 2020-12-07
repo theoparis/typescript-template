@@ -36,7 +36,7 @@ jobs:
                   node-version: ${{ matrix.node-version }}
             - run: npm add -g pnpm
             - run: pnpm install
-            - run: pnpm run lint -- --quiet
+            - run: pnpm run lint
               env:
                   CI: true
     coverage:
