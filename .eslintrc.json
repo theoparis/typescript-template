@@ -24,7 +24,26 @@
     ],
     "plugins": ["prettier", "@typescript-eslint"],
     "rules": {
-        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "warn",
         "curly": ["warn", "multi"]
-    }
+        "quotes": [
+            2,
+            "double"
+        ]
+    },
+    "overrides": [
+        {
+            "files": [
+                "**/*.js"
+            ],
+            "excludedFiles": [
+                "node_modules",
+                "dist",
+                "build"
+            ],
+            "rules": {
+                "@typescript-eslint/no-var-requires": "off"
+            }
+        }
+    ]
 }
