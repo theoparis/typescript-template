@@ -6,7 +6,7 @@ devDependencies:
   '@typescript-eslint/parser': 4.10.0_eslint@7.16.0+typescript@4.1.3
   chai: 4.2.0
   eslint: 7.16.0
-  eslint-config-prettier: 7.0.0_eslint@7.16.0
+  eslint-config-prettier: 7.1.0_eslint@7.16.0
   eslint-plugin-prettier: 3.2.0_eslint@7.16.0+prettier@2.2.1
   mocha: 8.2.1
   nyc: 15.1.0
@@ -789,7 +789,7 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
-  /eslint-config-prettier/7.0.0_eslint@7.16.0:
+  /eslint-config-prettier/7.1.0_eslint@7.16.0:
     dependencies:
       eslint: 7.16.0
     dev: true
@@ -797,7 +797,7 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
     resolution:
-      integrity: sha512-8Y8lGLVPPZdaNA7JXqnvETVC7IiVRgAP6afQu9gOQRn90YY3otMNh+x7Vr2vMePQntF+5erdSUBqSzCmU/AxaQ==
+      integrity: sha512-9sm5/PxaFG7qNJvJzTROMM1Bk1ozXVTKI0buKOyb0Bsr1hrwi0H/TzxF/COtf1uxikIK8SwhX7K6zg78jAzbeA==
   /eslint-plugin-prettier/3.2.0_eslint@7.16.0+prettier@2.2.1:
     dependencies:
       eslint: 7.16.0
@@ -2351,7 +2351,7 @@ specifiers:
   '@typescript-eslint/parser': 4.10.0
   chai: 4.2.0
   eslint: 7.16.0
-  eslint-config-prettier: 7.0.0
+  eslint-config-prettier: 7.1.0
   eslint-plugin-prettier: 3.2.0
   mocha: 8.2.1
   nyc: 15.1.0
