@@ -7,7 +7,7 @@ devDependencies:
   chai: 4.2.0
   eslint: 7.18.0
   eslint-config-prettier: 7.1.0_eslint@7.18.0
-  eslint-plugin-prettier: 3.3.0_eslint@7.18.0+prettier@2.2.1
+  eslint-plugin-prettier: 3.3.1_efe762de77ffca883b5e24b22265768d
   mocha: 8.2.1
   nyc: 15.1.0
   prettier: 2.2.1
@@ -799,10 +799,10 @@ packages:
       eslint: '>=7.0.0'
     resolution:
       integrity: sha512-9sm5/PxaFG7qNJvJzTROMM1Bk1ozXVTKI0buKOyb0Bsr1hrwi0H/TzxF/COtf1uxikIK8SwhX7K6zg78jAzbeA==
-  /eslint-plugin-prettier/3.3.0_eslint@7.18.0+prettier@2.2.1:
+  /eslint-plugin-prettier/3.3.1_efe762de77ffca883b5e24b22265768d:
     dependencies:
       eslint: 7.18.0
-      eslint-plugin-prettier: 3.3.0_eslint@7.18.0+prettier@2.2.1
+      eslint-config-prettier: 7.1.0_eslint@7.18.0
       prettier: 2.2.1
       prettier-linter-helpers: 1.0.0
     dev: true
@@ -810,13 +810,13 @@ packages:
       node: '>=6.0.0'
     peerDependencies:
       eslint: '>=5.0.0'
-      eslint-plugin-prettier: '*'
+      eslint-config-prettier: '*'
       prettier: '>=1.13.0'
     peerDependenciesMeta:
-      eslint-plugin-prettier:
+      eslint-config-prettier:
         optional: true
     resolution:
-      integrity: sha512-tMTwO8iUWlSRZIwS9k7/E4vrTsfvsrcM5p1eftyuqWH25nKsz/o6/54I7jwQ/3zobISyC7wMy9ZsFwgTxOcOpQ==
+      integrity: sha512-Rq3jkcFY8RYeQLgk2cCwuc0P7SEFwDravPhsJZOQ5N4YI4DSg50NyqJ/9gdZHzQlHf8MvafSesbNJCcP/FF6pQ==
   /eslint-scope/5.1.1:
     dependencies:
       esrecurse: 4.3.0
@@ -2358,7 +2358,7 @@ specifiers:
   chai: 4.2.0
   eslint: 7.18.0
   eslint-config-prettier: 7.1.0
-  eslint-plugin-prettier: 3.3.0
+  eslint-plugin-prettier: 3.3.1
   mocha: 8.2.1
   nyc: 15.1.0
   prettier: 2.2.1
