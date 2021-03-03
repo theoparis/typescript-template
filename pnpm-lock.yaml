@@ -1,7 +1,7 @@
 devDependencies:
   '@types/chai': 4.2.15
   '@types/mocha': 8.2.1
-  '@types/node': 14.14.22
+  '@types/node': 14.14.31
   '@typescript-eslint/eslint-plugin': 4.16.1_4fe32a7126aebc440d3400f14be2b917
   '@typescript-eslint/parser': 4.16.1_eslint@7.21.0+typescript@4.2.2
   chai: 4.3.0
@@ -257,10 +257,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-NysN+bNqj6E0Hv4CTGWSlPzMW6vTKjDpOteycDkV4IWBsO+PU48JonrPzV9ODjiI2XrjmA05KInLgF5ivZ/YGQ==
-  /@types/node/14.14.22:
+  /@types/node/14.14.31:
     dev: true
     resolution:
-      integrity: sha512-g+f/qj/cNcqKkc3tFqlXOYjrmZA+jNBiDzbP3kH+B+otKFqAdPgVTGP1IeKRdMml/aE69as5S4FqtxAbl+LaMw==
+      integrity: sha512-vFHy/ezP5qI0rFgJ7aQnjDXwAMrG0KqqIH7tQG5PPv3BWBayOPIQNBjVc/P6hhdZfMx51REc6tfDNXHUio893g==
   /@typescript-eslint/eslint-plugin/4.16.1_4fe32a7126aebc440d3400f14be2b917:
     dependencies:
       '@typescript-eslint/experimental-utils': 4.16.1_eslint@7.21.0+typescript@4.2.2
@@ -2329,7 +2329,7 @@ packages:
 specifiers:
   '@types/chai': 4.2.15
   '@types/mocha': 8.2.1
-  '@types/node': 14.14.22
+  '@types/node': 14.14.31
   '@typescript-eslint/eslint-plugin': 4.16.1
   '@typescript-eslint/parser': 4.16.1
   chai: 4.3.0
