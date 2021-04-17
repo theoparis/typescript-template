@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@types/chai': 4.2.16
   '@types/mocha': 8.2.2
-  '@types/node': 14.14.37
+  '@types/node': 14.14.41
   '@typescript-eslint/eslint-plugin': 4.22.0
   '@typescript-eslint/parser': 4.22.0
   chai: 4.3.4
@@ -20,7 +20,7 @@ specifiers:
 devDependencies:
   '@types/chai': 4.2.16
   '@types/mocha': 8.2.2
-  '@types/node': 14.14.37
+  '@types/node': 14.14.41
   '@typescript-eslint/eslint-plugin': 4.22.0_9acede93a3623dd7abe65c65a7010e73
   '@typescript-eslint/parser': 4.22.0_eslint@7.24.0+typescript@4.2.4
   chai: 4.3.4
@@ -294,8 +294,8 @@ packages:
     resolution: {integrity: sha512-Lwh0lzzqT5Pqh6z61P3c3P5nm6fzQK/MMHl9UKeneAeInVflBSz1O2EkX6gM6xfJd7FBXBY5purtLx7fUiZ7Hw==}
     dev: true
 
-  /@types/node/14.14.37:
-    resolution: {integrity: sha512-XYmBiy+ohOR4Lh5jE379fV2IU+6Jn4g5qASinhitfyO71b/sCo6MKsMLF5tc7Zf2CE8hViVQyYSobJNke8OvUw==}
+  /@types/node/14.14.41:
+    resolution: {integrity: sha512-dueRKfaJL4RTtSa7bWeTK1M+VH+Gns73oCgzvYfHZywRCoPSd8EkXBL0mZ9unPTveBn+D9phZBaxuzpwjWkW0g==}
     dev: true
 
   /@typescript-eslint/eslint-plugin/4.22.0_9acede93a3623dd7abe65c65a7010e73:
