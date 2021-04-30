@@ -24,7 +24,7 @@
     ],
     "plugins": ["prettier", "@typescript-eslint"],
     "rules": {
-        "@typescript-eslint/explicit-module-boundary-types": "warn",
+        "@typescript-eslint/explicit-module-boundary-types": 0,
         "curly": ["warn", "multi"],
         "quotes": [
             2,
