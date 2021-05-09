@@ -1,0 +1,11 @@
+# TODO: use kubernetes yaml
+version: "3"
+services:
+    caddy:
+        image: caddy:alpine
+        ports:
+            - 80:80
+            - 443:443
+        volumes:
+            - ./data/caddy/etc:/etc/caddy
+            - ./data/caddy/data:/data

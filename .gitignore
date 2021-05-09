@@ -19,3 +19,7 @@ logs
 # IDE Settings
 .vscode
 .idea
+
+# User data
+/data
+fdpl.ts
