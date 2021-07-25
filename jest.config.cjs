@@ -1,3 +1,5 @@
 module.exports = {
-    preset: "rollup-jest",
+    transform: {
+        "\\.[jt]sx?$": "es-jest"
+    }
 };
