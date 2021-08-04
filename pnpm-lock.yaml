@@ -8,7 +8,7 @@ specifiers:
   '@sucrase/jest-plugin': ^2.1.0
   '@theoparis/eslint-config': github:creepinson/eslint-config#update
   '@types/jest': ^26.0.24
-  '@types/node': 14.14.41
+  '@types/node': 14.17.7
   commitizen: ^4.2.3
   cz-conventional-changelog: ^3.3.0
   es-jest: ^1.2.0
@@ -30,7 +30,7 @@ devDependencies:
   '@sucrase/jest-plugin': 2.1.0
   '@theoparis/eslint-config': github.com/creepinson/eslint-config/7032c8bc841a9423872e8ebdce942e61b7b700e3
   '@types/jest': 26.0.24
-  '@types/node': 14.14.41
+  '@types/node': 14.17.7
   commitizen: 4.2.3
   cz-conventional-changelog: 3.3.0
   es-jest: 1.2.0
@@ -993,6 +993,10 @@ packages:
 
   /@types/node/14.14.41:
     resolution: {integrity: sha512-dueRKfaJL4RTtSa7bWeTK1M+VH+Gns73oCgzvYfHZywRCoPSd8EkXBL0mZ9unPTveBn+D9phZBaxuzpwjWkW0g==}
+    dev: true
+
+  /@types/node/14.17.7:
+    resolution: {integrity: sha512-SYTdMaW47se8499q8m0fYKZZRlmq0RaRv6oYmlVm6DUm31l0fhOl1D03X8hGxohCKTI2Bg6w7W0TiYB51aJzag==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
