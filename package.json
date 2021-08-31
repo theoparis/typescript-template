@@ -56,7 +56,7 @@
         "pinst": "^2.1.6",
         "prettier": "2.3.2",
         "rollup": "^2.53.3",
-        "rollup-plugin-dts": "^3.0.2",
+        "rollup-plugin-dts": "4.0.0",
         "typescript": "4.3.5"
     }
 }

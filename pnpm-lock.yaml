@@ -19,7 +19,7 @@ specifiers:
   pinst: ^2.1.6
   prettier: 2.3.2
   rollup: ^2.53.3
-  rollup-plugin-dts: ^3.0.2
+  rollup-plugin-dts: 4.0.0
   typescript: 4.3.5
 
 devDependencies:
@@ -28,7 +28,7 @@ devDependencies:
   '@rollup/plugin-node-resolve': 13.0.4_rollup@2.53.3
   '@rollup/plugin-typescript': 8.2.3_rollup@2.53.3+typescript@4.3.5
   '@sucrase/jest-plugin': 2.1.0
-  '@theoparis/eslint-config': github.com/creepinson/eslint-config/7032c8bc841a9423872e8ebdce942e61b7b700e3
+  '@theoparis/eslint-config': github.com/creepinson/eslint-config/8e90e06b8355e57ecf2095c84a9ba1ac2dc1b64c
   '@types/jest': 27.0.1
   '@types/node': 14.14.41
   commitizen: 4.2.3
@@ -41,7 +41,7 @@ devDependencies:
   pinst: 2.1.6
   prettier: 2.3.2
   rollup: 2.53.3
-  rollup-plugin-dts: 3.0.2_rollup@2.53.3+typescript@4.3.5
+  rollup-plugin-dts: 4.0.0_rollup@2.53.3+typescript@4.3.5
   typescript: 4.3.5
 
 packages:
@@ -439,12 +439,6 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /@commitlint/execute-rule/12.1.1:
-    resolution: {integrity: sha512-6mplMGvLCKF5LieL7BRhydpg32tm6LICnWQADrWU4S5g9PKi2utNvhiaiuNPoHUXr29RdbNaGNcyyPv8DSjJsQ==}
-    engines: {node: '>=v10'}
-    dev: true
-    optional: true
-
   /@commitlint/execute-rule/13.0.0:
     resolution: {integrity: sha512-lBz2bJhNAgkkU/rFMAw3XBNujbxhxlaFHY3lfKB/MxpAa+pIfmWB3ig9i1VKe0wCvujk02O0WiMleNaRn2KJqw==}
     engines: {node: '>=v12'}
@@ -475,20 +469,6 @@ packages:
       '@commitlint/rules': 13.1.0
       '@commitlint/types': 13.1.0
     dev: true
-
-  /@commitlint/load/12.1.1:
-    resolution: {integrity: sha512-qOQtgNdJRULUQWP9jkpTwhj7aEtnqUtqeUpbQ9rjS+GIUST65HZbteNUX4S0mAEGPWqy2aK5xGd73cUfFSvuuw==}
-    engines: {node: '>=v10'}
-    dependencies:
-      '@commitlint/execute-rule': 12.1.1
-      '@commitlint/resolve-extends': 12.1.1
-      '@commitlint/types': 12.1.1
-      chalk: 4.1.1
-      cosmiconfig: 7.0.0
-      lodash: 4.17.21
-      resolve-from: 5.0.0
-    dev: true
-    optional: true
 
   /@commitlint/load/13.1.0:
     resolution: {integrity: sha512-zlZbjJCWnWmBOSwTXis8H7I6pYk6JbDwOCuARA6B9Y/qt2PD+NCo0E/7EuaaFoxjHl+o56QR5QttuMBrf+BJzg==}
@@ -527,17 +507,6 @@ packages:
       git-raw-commits: 2.0.10
     dev: true
 
-  /@commitlint/resolve-extends/12.1.1:
-    resolution: {integrity: sha512-/DXRt0S0U3o9lq5cc8OL1Lkx0IjW0HcDWjUkUXshAajBIKBYSJB8x/loNCi1krNEJ8SwLXUEFt5OLxNO6wE9yQ==}
-    engines: {node: '>=v10'}
-    dependencies:
-      import-fresh: 3.3.0
-      lodash: 4.17.21
-      resolve-from: 5.0.0
-      resolve-global: 1.0.0
-    dev: true
-    optional: true
-
   /@commitlint/resolve-extends/13.0.0:
     resolution: {integrity: sha512-1SyaE+UOsYTkQlTPUOoj4NwxQhGFtYildVS/d0TJuK8a9uAJLw7bhCLH2PEeH5cC2D1do4Eqhx/3bLDrSLH3hg==}
     engines: {node: '>=v12'}
@@ -570,14 +539,6 @@ packages:
     dependencies:
       find-up: 5.0.0
     dev: true
-
-  /@commitlint/types/12.1.1:
-    resolution: {integrity: sha512-+qGH+s2Lo6qwacV2X3/ZypZwaAI84ift+1HBjXdXtI/q0F5NtmXucV3lcQOTviMTNiJhq4qWON2fjci2NItASw==}
-    engines: {node: '>=v10'}
-    dependencies:
-      chalk: 4.1.1
-    dev: true
-    optional: true
 
   /@commitlint/types/13.1.0:
     resolution: {integrity: sha512-zcVjuT+OfKt8h91vhBxt05RMcTGEx6DM7Q9QZeuMbXFk6xgbsSEDMMapbJPA1bCZ81fa/1OQBijSYPrKvtt06g==}
@@ -1822,7 +1783,7 @@ packages:
       longest: 2.0.1
       word-wrap: 1.2.3
     optionalDependencies:
-      '@commitlint/load': 12.1.1
+      '@commitlint/load': 13.1.0
     dev: true
 
   /cz-conventional-changelog/3.3.0:
@@ -1836,7 +1797,7 @@ packages:
       longest: 2.0.1
       word-wrap: 1.2.3
     optionalDependencies:
-      '@commitlint/load': 12.1.1
+      '@commitlint/load': 13.1.0
     dev: true
 
   /damerau-levenshtein/1.0.7:
@@ -4816,12 +4777,12 @@ packages:
       glob: 7.1.7
     dev: true
 
-  /rollup-plugin-dts/3.0.2_rollup@2.53.3+typescript@4.3.5:
-    resolution: {integrity: sha512-hswlsdWu/x7k5pXzaLP6OvKRKcx8Bzprksz9i9mUe72zvt8LvqAb/AZpzs6FkLgmyRaN8B6rUQOVtzA3yEt9Yw==}
-    engines: {node: '>=v12.22.1'}
+  /rollup-plugin-dts/4.0.0_rollup@2.53.3+typescript@4.3.5:
+    resolution: {integrity: sha512-tgUC8CxVgtlLDVloUEA9uACVaxjJHuYxlDSTp1LdCexA0bJx+RuMi45RjdLG9RTCgZlV5YBh3O7P2u6dS1KlnA==}
+    engines: {node: '>=v12.22.5'}
     peerDependencies:
-      rollup: ^2.48.0
-      typescript: ^4.2.4
+      rollup: ^2.56.3
+      typescript: ^4.4.2
     dependencies:
       magic-string: 0.25.7
       rollup: 2.53.3
@@ -5701,8 +5662,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/creepinson/eslint-config/7032c8bc841a9423872e8ebdce942e61b7b700e3:
-    resolution: {tarball: https://codeload.github.com/creepinson/eslint-config/tar.gz/7032c8bc841a9423872e8ebdce942e61b7b700e3}
+  github.com/creepinson/eslint-config/8e90e06b8355e57ecf2095c84a9ba1ac2dc1b64c:
+    resolution: {tarball: https://codeload.github.com/creepinson/eslint-config/tar.gz/8e90e06b8355e57ecf2095c84a9ba1ac2dc1b64c}
     name: '@theoparis/eslint-config'
     version: 1.0.2
     dependencies:
