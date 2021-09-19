@@ -1,5 +1,4 @@
-import typescript from "@rollup/plugin-typescript";
-import dts from "rollup-plugin-dts";
+import typescript from "rollup-plugin-typescript2";
 import resolve from "@rollup/plugin-node-resolve";
 
 export default [
@@ -13,7 +12,7 @@ export default [
             resolve({
                 extensions: [".js", ".ts"]
             }),
-            typescript({ target: "ES6" })
+            typescript()
         ]
     },
     {
@@ -26,21 +25,7 @@ export default [
             resolve({
                 extensions: [".js", ".ts"]
             }),
-            typescript({ target: "ES2020" })
+            typescript()
         ]
     },
-    {
-        input: "./src/index.ts",
-        output: {
-            file: "dist/index.d.ts",
-            format: "cjs"
-        },
-        plugins: [
-            resolve({
-                extensions: [".js", ".ts"]
-            }),
-            typescript(),
-            dts()
-        ]
-    }
 ];
