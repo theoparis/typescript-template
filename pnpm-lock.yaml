@@ -14,7 +14,7 @@ specifiers:
   es-jest: ^1.2.0
   esbuild: ^0.12.15
   eslint: 7.32.0
-  husky: 7.0.1
+  husky: 7.0.2
   jest: 27.1.1
   pinst: ^2.1.6
   prettier: 2.4.0
@@ -36,7 +36,7 @@ devDependencies:
   es-jest: 1.2.0
   esbuild: 0.12.15
   eslint: 7.32.0
-  husky: 7.0.1
+  husky: 7.0.2
   jest: 27.1.1
   pinst: 2.1.6
   prettier: 2.4.0
@@ -2880,8 +2880,8 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /husky/7.0.1:
-    resolution: {integrity: sha512-gceRaITVZ+cJH9sNHqx5tFwbzlLCVxtVZcusME8JYQ8Edy5mpGDOqD8QBCdMhpyo9a+JXddnujQ4rpY2Ff9SJA==}
+  /husky/7.0.2:
+    resolution: {integrity: sha512-8yKEWNX4z2YsofXAMT7KvA1g8p+GxtB1ffV8XtpAEGuXNAbCV5wdNKH+qTpw8SM9fh4aMPDR+yQuKfgnreyZlg==}
     engines: {node: '>=12'}
     hasBin: true
     dev: true
