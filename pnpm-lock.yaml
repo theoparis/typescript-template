@@ -14,7 +14,7 @@ specifiers:
   es-jest: ^1.2.0
   esbuild: ^0.12.15
   eslint: 7.32.0
-  husky: 7.0.2
+  husky: 7.0.4
   jest: 27.1.1
   pinst: ^2.1.6
   prettier: 2.4.0
@@ -36,7 +36,7 @@ devDependencies:
   es-jest: 1.2.0
   esbuild: 0.12.15
   eslint: 7.32.0
-  husky: 7.0.2
+  husky: 7.0.4
   jest: 27.1.1
   pinst: 2.1.6
   prettier: 2.4.0
@@ -1242,17 +1242,6 @@ packages:
     resolution: {integrity: sha1-nlKHYrSpBmrRY6aWKjZEGOlibs4=}
     dev: true
 
-  /array-includes/3.1.3:
-    resolution: {integrity: sha512-gcem1KlBU7c9rB+Rq8/3PPKsK2kjqeEBa3bD5kkQo4nYlOHQCJqIJFqBXDEfwaRuYTT4E+FxA9xez7Gf/e3Q7A==}
-    engines: {node: '>= 0.4'}
-    dependencies:
-      call-bind: 1.0.2
-      define-properties: 1.1.3
-      es-abstract: 1.19.1
-      get-intrinsic: 1.1.1
-      is-string: 1.0.7
-    dev: true
-
   /array-includes/3.1.4:
     resolution: {integrity: sha512-ZTNSQkmWumEbiHO2GF4GmWxYVTiQyJy2XOTa15sdQSrvKn7l+180egQMqlrMOUMCyLMD7pmyQe4mMDUT6Behrw==}
     engines: {node: '>= 0.4'}
@@ -2148,7 +2137,7 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7
     dependencies:
-      array-includes: 3.1.3
+      array-includes: 3.1.4
       array.prototype.flatmap: 1.2.4
       doctrine: 2.1.0
       eslint: 7.32.0
@@ -2496,7 +2485,7 @@ packages:
     engines: {node: '>= 0.10'}
     dependencies:
       detect-file: 1.0.0
-      is-glob: 4.0.1
+      is-glob: 4.0.3
       micromatch: 3.1.10
       resolve-dir: 1.0.1
     dev: true
@@ -2633,7 +2622,7 @@ packages:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
     dependencies:
-      is-glob: 4.0.1
+      is-glob: 4.0.3
     dev: true
 
   /glob/7.1.4:
@@ -2848,8 +2837,8 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /husky/7.0.2:
-    resolution: {integrity: sha512-8yKEWNX4z2YsofXAMT7KvA1g8p+GxtB1ffV8XtpAEGuXNAbCV5wdNKH+qTpw8SM9fh4aMPDR+yQuKfgnreyZlg==}
+  /husky/7.0.4:
+    resolution: {integrity: sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==}
     engines: {node: '>=12'}
     hasBin: true
     dev: true
@@ -2984,12 +2973,6 @@ packages:
     hasBin: true
     dependencies:
       ci-info: 3.2.0
-    dev: true
-
-  /is-core-module/2.5.0:
-    resolution: {integrity: sha512-TXCMSDsEHMEEZ6eCA8rwRDbLu55MRGmrctljsBX/2v1d9/GzqHOxW5c5oPSgrUt2vBFXebu9rGqckXGPWOlYpg==}
-    dependencies:
-      has: 1.0.3
     dev: true
 
   /is-core-module/2.8.0:
@@ -4715,7 +4698,7 @@ packages:
   /resolve/1.20.0:
     resolution: {integrity: sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==}
     dependencies:
-      is-core-module: 2.5.0
+      is-core-module: 2.8.0
       path-parse: 1.0.7
     dev: true
 
