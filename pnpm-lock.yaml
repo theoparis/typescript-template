@@ -17,7 +17,7 @@ specifiers:
   husky: 7.0.4
   jest: 27.1.1
   pinst: ^2.1.6
-  prettier: 2.4.0
+  prettier: 2.4.1
   rollup: ^2.53.3
   rollup-plugin-dts: 4.0.0
   typescript: 4.4.4
@@ -39,7 +39,7 @@ devDependencies:
   husky: 7.0.4
   jest: 27.1.1
   pinst: 2.1.6
-  prettier: 2.4.0
+  prettier: 2.4.1
   rollup: 2.53.3
   rollup-plugin-dts: 4.0.0_rollup@2.53.3+typescript@4.4.4
   typescript: 4.4.4
@@ -4495,12 +4495,6 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       fast-diff: 1.2.0
-    dev: true
-
-  /prettier/2.4.0:
-    resolution: {integrity: sha512-DsEPLY1dE5HF3BxCRBmD4uYZ+5DCbvatnolqTqcxEgKVZnL2kUfyu7b8pPQ5+hTBkdhU9SLUmK0/pHb07RE4WQ==}
-    engines: {node: '>=10.13.0'}
-    hasBin: true
     dev: true
 
   /prettier/2.4.1:
