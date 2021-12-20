@@ -1,4 +1,11 @@
 {
     "root": true,
-    "extends": ["@theoparis/eslint-config"]
+    "extends": ["@theoparis/eslint-config"],
+    "parserOptions": {
+        "warnOnUnsupportedTypeScriptVersion": false
+    },
+    "rules": {
+        "no-shadow": "off",
+        "prettier/prettier": "error"
+    }
 }

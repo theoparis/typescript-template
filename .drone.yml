@@ -1,0 +1,16 @@
+---
+kind: pipeline
+name: default
+type: docker
+
+steps:
+  - name: build
+    image: creepinson/alpine-pnpm:latest
+    commands:
+      - pnpm install
+      - pnpm run build
+  - name: test
+    image: creepinson/alpine-pnpm:latest
+    commands:
+      - pnpm install
+      - pnpm run test

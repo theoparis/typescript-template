@@ -17,5 +17,5 @@ logs
 .dccache
 
 # IDE Settings
-.vscode
+.vscode/sftp.json
 .idea
