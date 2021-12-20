@@ -3,13 +3,10 @@
     "version": "0.0.1",
     "description": "",
     "type": "module",
-    "main": "./dist/index.cjs",
+    "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "exports": {
-        ".": {
-            "import": "./dist/index.mjs",
-            "require": "./dist/index.cjs"
-        }
+        "./": "./dist/index.js"
     },
     "config": {
         "commitizen": {
@@ -23,8 +20,8 @@
     },
     "scripts": {
         "cm": "cz",
-        "build": "rollup -c",
-        "test": "jest",
+        "build": "tsc -b",
+        "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
         "lint": "eslint src/**/*.ts --fix",
         "coverage": "pnpm run test -- --coverage",
         "prepublishOnly": "pinst --disable && pnpm run lint && pnpm run test && pnpm run build",
@@ -38,25 +35,20 @@
     "author": "Theo Paris",
     "license": "MIT",
     "devDependencies": {
-        "@commitlint/cli": "13.2.1",
-        "@commitlint/config-conventional": "13.2.0",
-        "@rollup/plugin-node-resolve": "^13.0.4",
-        "@rollup/plugin-typescript": "^8.2.3",
-        "@sucrase/jest-plugin": "^2.1.0",
+        "@commitlint/cli": "15.0.0",
+        "@commitlint/config-conventional": "15.0.0",
         "@theoparis/eslint-config": "github:creepinson/eslint-config#update",
         "@types/jest": "27.0.3",
-        "@types/node": "14.18.1",
-        "commitizen": "^4.2.3",
+        "@types/node": "17.0.1",
+        "commitizen": "^4.2.4",
         "cz-conventional-changelog": "^3.3.0",
-        "es-jest": "^1.2.0",
         "esbuild": "0.14.5",
         "eslint": "8.5.0",
         "husky": "7.0.4",
         "jest": "27.4.5",
         "pinst": "^2.1.6",
         "prettier": "2.5.1",
-        "rollup": "^2.53.3",
-        "rollup-plugin-dts": "4.0.1",
+        "ts-jest": "^27.1.2",
         "typescript": "4.5.4"
     }
 }

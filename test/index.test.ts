@@ -1,4 +1,4 @@
-import { main } from "..";
+import { main } from "../src/index.js";
 
 describe("main()", () => {
     it("Should contain hello", () => {
