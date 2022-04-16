@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@commitlint/cli': 16.2.3
   '@commitlint/config-conventional': 16.2.1
-  '@theoparis/eslint-config': git+https://github.com/creepinson/eslint-config#update
+  '@theoparis/eslint-config': git+https://github.com/theoparis/eslint-config#update
   '@types/jest': 27.4.1
   '@types/node': 17.0.1
   commitizen: ^4.2.4
@@ -20,7 +20,7 @@ specifiers:
 devDependencies:
   '@commitlint/cli': 16.2.3
   '@commitlint/config-conventional': 16.2.1
-  '@theoparis/eslint-config': github.com/creepinson/eslint-config/742b583f7e2e5291e2e96bed84ec469628bcec0c
+  '@theoparis/eslint-config': github.com/theoparis/eslint-config/742b583f7e2e5291e2e96bed84ec469628bcec0c
   '@types/jest': 27.4.1
   '@types/node': 17.0.1
   commitizen: 4.2.4
@@ -5129,8 +5129,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/creepinson/eslint-config/742b583f7e2e5291e2e96bed84ec469628bcec0c:
-    resolution: {commit: 742b583f7e2e5291e2e96bed84ec469628bcec0c, repo: git+ssh://git@github.com/creepinson/eslint-config.git, type: git}
+  github.com/theoparis/eslint-config/742b583f7e2e5291e2e96bed84ec469628bcec0c:
+    resolution: {tarball: https://codeload.github.com/theoparis/eslint-config/tar.gz/742b583f7e2e5291e2e96bed84ec469628bcec0c}
     name: '@theoparis/eslint-config'
     version: 1.0.2
     dependencies:
