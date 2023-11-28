@@ -1,0 +1,17 @@
+{
+	"name": "@theoparis/template",
+	"version": "0.0.1",
+	"description": "Typescript template",
+	"type": "module",
+	"scripts": {
+		"build": "tsc -b"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^8.54.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "github:filiptammergard/eslint-plugin-prettier#flat-config",
+		"prettier": "^3.1.0",
+		"typescript": "^5.3.2"
+	}
+}
