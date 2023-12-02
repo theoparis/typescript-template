@@ -6,19 +6,19 @@ settings:
 
 devDependencies:
   eslint:
-    specifier: ^8.54.0
+    specifier: 8.54.0
     version: 8.54.0
   eslint-config-prettier:
-    specifier: ^9.0.0
+    specifier: 9.0.0
     version: 9.0.0(eslint@8.54.0)
   eslint-plugin-prettier:
     specifier: github:filiptammergard/eslint-plugin-prettier#flat-config
     version: github.com/filiptammergard/eslint-plugin-prettier/9c45c5d0719708c988543a98f1e8a0716575e1bc(eslint-config-prettier@9.0.0)(eslint@8.54.0)(prettier@3.1.0)
   prettier:
-    specifier: ^3.1.0
+    specifier: 3.1.0
     version: 3.1.0
   typescript:
-    specifier: ^5.3.2
+    specifier: 5.3.2
     version: 5.3.2
 
 packages:
@@ -1011,7 +1011,6 @@ packages:
     name: eslint-plugin-prettier
     version: 5.0.1
     engines: {node: ^14.18.0 || >=16.0.0}
-    prepare: true
     requiresBuild: true
     peerDependencies:
       '@types/eslint': '>=8.0.0'
